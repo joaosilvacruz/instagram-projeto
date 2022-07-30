@@ -131,5 +131,30 @@ body{
     background-image: url(./img/google-play-button.png);
 }
 
+/* media queries */
 
+@media (max-width: 1024px) {
+    .instragram-wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 790px){
+    body{
+        background-color: #ffffff;
+    }
+
+    .instragram-wrapper{
+        width: 90%;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 90%;
+    }
+
+}
 
